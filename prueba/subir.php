@@ -12,10 +12,10 @@
        <label>Elegir Archivo</label>
        <br>
        <br>
-       <label class="text" for="archivo">Archivo</label>
+       <label class="text">Archivo</label>
        <br>
        <br>
-       <input type="file" name="" value="">
+       <input type="file" name="archivo" value="archivo">
        <br>
        <br>
        <input type="submit" name="Subir" value="Subir">
