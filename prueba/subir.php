@@ -1,25 +1,24 @@
-<?php
+<html>
+	<head>
+		<style>
+			input {
+				font-size: 30px;
+			}
+			label {
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="bajar.php" method="post"enctype="multipart/form-data">
 
- ?>
- <!DOCTYPE html>
- <html>
-   <head>
-     <meta charset="utf-8">
-     <title>Subir.php</title>
-   </head>
-   <body>
-     <form action="bajar.php"method="post" enctype="multipart/form-data">
-       <label>Elegir Archivo</label>
-       <br>
-       <br>
-       <label class="text">Archivo</label>
-       <br>
-       <br>
-       <input type="file" name="archivo" value="archivo">
-       <br>
-       <br>
-       <input type="submit" name="Subir" value="Subir">
-
-     </form>
-   </body>
- </html>
+			<label>Elegir archivo:</label>
+			<br>
+			<br>
+			<input type="file" name="archivo">
+			<br>
+			<br>
+			<input type="submit" name="enviar" value="subir archivo">
+		</form>
+	</body>
+</html>
